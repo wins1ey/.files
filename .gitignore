@@ -1,0 +1,8 @@
+*
+
+!.gitignore
+!.xinitrc
+!.zprofile
+!.zshrc
+
+!.config/
