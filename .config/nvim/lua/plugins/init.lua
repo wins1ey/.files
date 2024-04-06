@@ -27,4 +27,12 @@ return {
         "felipeagc/fleet-theme-nvim",
         config = function() vim.cmd("colorscheme fleet") end
     },
+
+    -- Markdown
+    {
+        "iamcco/markdown-preview.nvim",
+        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+        ft = { "markdown" },
+        build = function() vim.fn["mkdp#util#install"]() end,
+    },
 }
