@@ -37,7 +37,7 @@ fi
 xmodmap -e "keycode 108 = Super_L"
 xmodmap -e "remove mod1 = Super_L"
 
-feh --bg-fill ~/.config/wallpapers/space-has-no-limits-1.png ~/.config/wallpapers/space-has-no-limits-2.png
+feh --bg-fill ~/.config/wallpapers/space-has-no-limits-1.png ~/.config/wallpapers/space-has-no-limits-2.png &
 slstatus &
 numlockx &
 xautolock -corners ---- -time 30 -locker slock &
