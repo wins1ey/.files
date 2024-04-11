@@ -41,4 +41,5 @@ feh --bg-fill ~/.config/wallpapers/space-has-no-limits-1.png ~/.config/wallpaper
 slstatus &
 numlockx &
 xautolock -corners ---- -time 30 -locker slock &
+thunar --daemon &
 exec dwm
