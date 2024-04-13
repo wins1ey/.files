@@ -1,6 +1,9 @@
 !dunst/
 !dunst/**
 
+!dwm/
+!dwm/**
+
 !flameshot
 !flameshot/**
 
