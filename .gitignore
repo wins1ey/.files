@@ -1,6 +1,8 @@
 *
 
 !.gitignore
+!.bashrc
+!.bash_profile
 !.xinitrc
 !.zprofile
 !.zshrc
