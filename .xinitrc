@@ -25,17 +25,12 @@ fi
 
 # start some nice programs
 
-
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
   [ -x "$f" ] && . "$f"
  done
  unset f
 fi
-
-# Set right alt to super
-xmodmap -e "keycode 108 = Super_L"
-xmodmap -e "remove mod1 = Super_L"
 
 feh --bg-fill ~/.config/wallpapers/space-has-no-limits-1.png ~/.config/wallpapers/space-has-no-limits-2.png &
 slstatus &
