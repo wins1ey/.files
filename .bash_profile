@@ -4,5 +4,6 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-startx
-xrdb -load ~/.config/X11/Xresources
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+  exec startx
+fi
