@@ -1,5 +1,4 @@
 !gamemode.ini
-!picom.conf
 
 !dunst/
 !dunst/**
@@ -12,6 +11,9 @@
 
 !/nvim/
 !/nvim/**
+
+!/picom/
+!/picom/**
 
 !/slock/
 !/slock/**
