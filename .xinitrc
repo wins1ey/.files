@@ -37,4 +37,5 @@ slstatus &
 numlockx &
 xautolock -corners ---- -time 30 -locker slock &
 thunar --daemon &
+picom -b
 exec dwm
