@@ -40,7 +40,6 @@ export LD_LIBRARY_PATH="usr/local/lib":$LD_LIBRARY_PATH
 
 export CHROOT=$HOME/chroot
 
-alias cemu="Cemu"
 alias .files="/usr/bin/lazygit --git-dir=$HOME/.files --work-tree=$HOME"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.files --work-tree=$HOME"
 
