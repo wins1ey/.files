@@ -12,7 +12,6 @@ compinit
 # End of lines added by compinstall
 PS1='%n@%m %~ $ '
 
-
 # Open fff with just 'f'
 f() {
 	fff "$@"
@@ -40,8 +39,9 @@ export LD_LIBRARY_PATH="usr/local/lib":$LD_LIBRARY_PATH
 
 export CHROOT=$HOME/chroot
 
-alias .files="/usr/bin/lazygit --git-dir=$HOME/.files --work-tree=$HOME"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.files --work-tree=$HOME"
+alias lzg.files="/usr/bin/lazygit --git-dir=$HOME/.files --work-tree=$HOME"
+alias git.files="/usr/bin/git --git-dir=$HOME/.files --work-tree=$HOME"
+alias lzg="/usr/bin/lazygit"
 
 . /usr/share/z/z.sh
 

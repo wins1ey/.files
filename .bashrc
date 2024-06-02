@@ -15,8 +15,9 @@ PS1="\\[\\033[01;34m\\]\\u\\[\\033[00m\\]@\\h \\w\\[\\033[01;32m\\]\$(parse_git_
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias .files="/usr/bin/lazygit --git-dir=$HOME/.files --work-tree=$HOME"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.files --work-tree=$HOME"
+alias lzg.files="/usr/bin/lazygit --git-dir=$HOME/.files --work-tree=$HOME"
+alias git.files="/usr/bin/git --git-dir=$HOME/.files --work-tree=$HOME"
+alias lzg="/usr/bin/lazygit"
 
 export EDITOR="nvim"
 export VISUAL="nvim"
