@@ -1,4 +1,4 @@
-# .files
+# wins1ey.files
 
 Prior to the installation make sure you have committed the alias to your .bashrc or .zshrc:
 
