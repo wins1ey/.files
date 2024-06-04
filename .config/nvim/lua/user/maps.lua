@@ -6,3 +6,4 @@ vim.g.mapleader = " "
 
 map("n", "<leader>gg", ":LazyGit<CR>", opts)
 map("n", "<leader>mm", ":MarkdownPreviewToggle<CR>", opts)
+map("n", "<leader>ti", ":lua require('user/functions').toggle_indentation()<CR>", opts)
